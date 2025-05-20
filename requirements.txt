@@ -1,1 +1,14 @@
-scikit-learn matplotlib tensorflow transformers
+# --- librairies « classiques » ---
+numpy>=1.28,<2          # calcul numérique
+matplotlib>=3.9,<4      # graphiques
+scikit-learn>=1.5,<2    # algos ML + métriques
+
+# --- deep-learning, CPU uniquement (plus léger) ---
+tensorflow-cpu>=2.16,<3 # évite les dépendances GPU inutiles
+torch>=2.3,<3           # requis par transformers pour GPT-2
+
+# --- NLP / LLM ---
+transformers>=4.43,<5   # pipeline('text-generation')
+
+# --- facultatif mais souvent déjà inclus ---
+jupyterlab            # Binder installe Jupyter automatiquement
