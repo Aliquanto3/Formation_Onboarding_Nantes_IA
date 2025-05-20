@@ -63,7 +63,48 @@ python -m venv .venv
 pip install --upgrade pip
 pip install -r requirements.txt ipykernel
 
-# 4. Lancez VS Code et sélectionnez l’interpréteur .venv
-code .
+# 4. Lancez VS Code et sélectionnez l’interpréteur .venv code .
 
 # 5. Ouvrez IA_HandsOn_Demo_v2.ipynb, puis ▶ Exécuter tout
+```
+
+## Contenu du dépôt
+
+| Élément                       | Description                                             |
+|-------------------------------|---------------------------------------------------------|
+| `IA_HandsOn_Demo_v2.ipynb`    | Notebook principal, pas-à-pas & commenté               |
+| `requirements.txt`            | Dépendances Python pour Binder/Colab/local             |
+| `README.md`                   | Ce document                                            |
+| *(à venir)*                   | Slides, supports PDF ou liens utiles                   |
+
+---
+
+## FAQ
+
+<details>
+<summary>❓ Binder ouvre JupyterLab ; je préfère l’interface Notebook classique.</summary>
+
+Remplacez `labpath=` par `filepath=` dans l’URL&nbsp;: https://mybinder.org/v2/gh/Aliquanto3/Formation_Onboarding_Nantes_IA/HEAD?labpath=IA_HandsOn_Demo_v2.ipynb
+
+</details>
+
+<details>
+<summary>❓ Erreur Windows : « Could not install packages … Long Path ». </summary>
+
+Activez les chemins longs (gpedit ou Regedit) **ou** utilisez l’environnement virtuel `.venv` décrit ci-dessus.
+</details>
+
+<details>
+<summary>❓ Nous serons plus de 100 participants ; Binder tiendra-t-il ? </summary>
+
+La limite communautaire est 100 pods simultanés par dépôt. Clonez ce repo sous un autre nom et partagez deux liens, ou demandez un quota temporaire sur <https://discourse.jupyter.org>.
+</details>
+
+---
+
+## Licence
+
+Ce contenu est publié sous licence **CC BY-SA 4.0**.  
+Vous pouvez le partager et l’adapter en citant l’auteur et en conservant la même licence.
+
+
