@@ -6,7 +6,7 @@ scikit-learn==1.5.0   # algos ML + métriques
 # --- deep-learning, CPU uniquement (plus léger) ---
 # roue CPU officielle :
 tensorflow-cpu==2.16.1 # évite les dépendances GPU inutiles
-torch==2.3.0+cpu --index-url https://download.pytorch.org/whl/cpu         # requis par transformers pour GPT-2
+torch==2.3.0           # requis par transformers pour GPT-2
 
 # --- NLP / LLM ---
 transformers==4.43.0  # pipeline('text-generation')

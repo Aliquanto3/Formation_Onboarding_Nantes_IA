@@ -84,7 +84,7 @@ pip install -r requirements.txt ipykernel
 <details>
 <summary>❓ Binder ouvre JupyterLab ; je préfère l’interface Notebook classique.</summary>
 
-Remplacez `labpath=` par `filepath=` dans l’URL&nbsp;: https://mybinder.org/v2/gh/Aliquanto3/Formation_Onboarding_Nantes_IA/HEAD?labpath=IA_HandsOn_Demo_v2.ipynb
+Remplacez `labpath=` par `filepath=` dans l’URL&nbsp;: https://mybinder.org/v2/gh/Aliquanto3/Formation_Onboarding_Nantes_IA/HEAD?labpath=IA_HandsOn_Demo.ipynb
 
 </details>
 
